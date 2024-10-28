@@ -1,0 +1,74 @@
+.form {
+    width: 100%;
+    display: flex;
+    padding: 1.4rem 0.5rem;
+    background-color: var(--color-bg-dark);
+}
+
+.form2 {
+    width: 100%;
+    display: flex;
+    padding: 0.5rem 0.5rem;
+    background-color: var(--color-bg-dark);
+}
+
+.input {
+    flex: 1 1 auto;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    outline: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.input2 {
+    flex: 1 1 auto;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    width: 55%;
+}
+
+.button {
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: 0 1.5rem;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+.button:hover {
+    filter: brightness(125%);
+}
+
+.label {
+    /* flex-grow flex-shrink flex-basis 속성 */
+    flex: 1 1 0%;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.button_save {
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    font-weight: bold;
+    width: 100%;
+    font-size: 1.4rem;
+    padding: 0 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button:hover {
+    filter: brightness(125%);
+}
+
+.date_picker {
+    flex: 1 1 auto;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    width: 100%;
+}
