@@ -48,7 +48,7 @@ export default function AddTodo({ onAdd }) {
           className={styles.date_picker}
           dateFormat="yyyy년 MM월 dd일"
           selected={date}
-          onChange={(date) => setDate(date)}
+          onChange={handleDateChange}
         />
       </div>
       {/* 성명 */}

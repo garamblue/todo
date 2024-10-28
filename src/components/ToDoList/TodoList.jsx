@@ -56,5 +56,3 @@ function getTodos() {
   const todos = localStorage.getItem("todos");
   return todos ? JSON.parse(todos) : [];
 }
-
-//git 연동
